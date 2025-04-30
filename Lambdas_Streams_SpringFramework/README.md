@@ -1,5 +1,8 @@
 # O que é uma Lambda em Java?
 
+<br>
+
+
 ## 🧠 Definição simples
 
 **Lambda** é uma forma curta e expressiva de escrever funções anônimas (sem nome).  
@@ -75,6 +78,9 @@ O resultado é menos código, mais clareza e melhor adesão às práticas modern
 
 ---
 
+<br>
+
+
 # O que é forEach em Java?
 
 ## 🔄 Definição
@@ -146,6 +152,9 @@ temporadas.forEach(t ->
 | ✅ Combinável com stream()| Pode ser encadeado com filtros, mapeamentos, etc.       |
 
 ---
+
+<br>
+
 
 # O que é Stream em Java?
 
