@@ -60,13 +60,9 @@ public class Principal {
 
                 dadosEpisodios.stream()
                                 .filter(e -> !e.avaliacao().equalsIgnoreCase("N/A"))
-
                                 .sorted(Comparator.comparing(DadosEpisodio::avaliacao).reversed())
-
                                 .limit(10)
-
                                 .map(e -> e.titulo().toUpperCase() + " Nota: " + e.avaliacao())
-
                                 .forEach(System.out::println);
 
                 System.out.println("\n");
