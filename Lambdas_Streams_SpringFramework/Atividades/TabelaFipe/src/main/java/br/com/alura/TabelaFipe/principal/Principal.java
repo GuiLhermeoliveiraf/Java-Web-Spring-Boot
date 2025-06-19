@@ -28,6 +28,7 @@ public class Principal {
                 Digite uma das opções para a consulta
                 """;
         System.out.println(menu);
+        
         Scanner leitura = new Scanner(System.in);
         var opcao = leitura.nextLine();
         String endereco;
