@@ -4,7 +4,9 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
-        <option value="$PROJECT_DIR$/Atividades/Screenmatch/pom.xml" />
+        <option value="$PROJECT_DIR$/PostgreSQL_e_Spring Data_JPA/Atividades/Screenmatch/pom.xml" />
+        <option value="$PROJECT_DIR$/Lambdas_Streams_SpringFramework/Atividades/TabelaFipe/pom.xml" />
+        <option value="$PROJECT_DIR$/Lambdas_Streams_SpringFramework/Atividades/screenmatch/screenmatch/pom.xml" />
       </list>
     </option>
   </component>
