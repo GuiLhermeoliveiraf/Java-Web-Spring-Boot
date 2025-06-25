@@ -26,7 +26,7 @@ public class Principal {
                     1 - Buscar séries
                     2 - Buscar episódios
                     3 - Listar Series Buscadas
-                    
+
                     0 - Sair
                     """;
 
@@ -34,7 +34,7 @@ public class Principal {
             opcao = leitura.nextInt();
             leitura.nextLine();
 
-            switch (opcao){
+            switch (opcao) {
                 case 1:
                     buscarSerieWeb();
                     break;
@@ -67,7 +67,7 @@ public class Principal {
         return dados;
     }
 
-    private void buscarEpisodioPorSerie(){
+    private void buscarEpisodioPorSerie() {
         DadosSerie dadosSerie = getDadosSerie();
         List<DadosTemporada> temporadas = new ArrayList<>();
 
@@ -79,7 +79,7 @@ public class Principal {
         temporadas.forEach(System.out::println);
     }
 
-    private void listarSeriesBuscados(){
+    private void listarSeriesBuscados() {
         List<Serie> series = new ArrayList<>();
         series = dadosSerie.stream()
                 .map(d -> new Serie(d))
