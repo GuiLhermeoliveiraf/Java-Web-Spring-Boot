@@ -9,8 +9,7 @@ import java.util.List;
 public class ConsultaChatGPT {
 
     public static String obterTraducao(String texto) {
-        OpenAiService service = new OpenAiService(
-                "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");
+        OpenAiService service = new OpenAiService("");
 
         ChatMessage mensagemUsuario = new ChatMessage("user", "Traduza para o português: " + texto);
 

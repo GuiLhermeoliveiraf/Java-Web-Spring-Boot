@@ -1,17 +1,32 @@
 package br.com.alura.screenmatch.model;
-
 import br.com.alura.screenmatch.service.ConsultaChatGPT;
+import jakarta.persistence.*;
+import org.springframework.boot.autoconfigure.web.WebProperties;
 
 
 import java.util.OptionalDouble;
 
+@Entity
+@Table(name = "Series")
 public class Serie {
+    @Id
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    private Long id;
+
+    @Column(unique = true)
     private String titulo;
+
     private Integer totalTemporadas;
+
     private Double avaliacao;
+
+    @Enumerated(EnumType.STRING)
     private Categoria genero;
+
     private String atores;
+
     private String imagem;
+
     private String sinopse;
 
     public Serie(DadosSerie dadosSerie){
@@ -22,6 +37,14 @@ public class Serie {
         this.atores = dadosSerie.atores();
         this.imagem = dadosSerie.imagem();
         this.sinopse = ConsultaChatGPT.obterTraducao(dadosSerie.sinopse()).trim();
+    }
+
+    public Long getId() {
+        return id;
+    }
+
+    public void setId(Long id) {
+        this.id = id;
     }
 
     public String getTitulo() {

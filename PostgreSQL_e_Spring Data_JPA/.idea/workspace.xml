@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5366e236-4991-4e1e-a7a3-a92149603785" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../Lambdas_Streams_SpringFramework/.idea/Lambdas_Streams_SpringFramework.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Atividades/Screenmatch/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Atividades/Screenmatch/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Atividades/Screenmatch/src/main/java/br/com/alura/screenmatch/principal/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Atividades/Screenmatch/src/main/java/br/com/alura/screenmatch/principal/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atividades/Screenmatch/src/main/java/br/com/alura/screenmatch/model/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/Atividades/Screenmatch/src/main/java/br/com/alura/screenmatch/model/Serie.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Atividades/Screenmatch/src/main/java/br/com/alura/screenmatch/service/ConsultaChatGPT.java" beforeDir="false" afterPath="$PROJECT_DIR$/Atividades/Screenmatch/src/main/java/br/com/alura/screenmatch/service/ConsultaChatGPT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Atividades/Screenmatch/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Atividades/Screenmatch/src/main/resources/application.properties" afterDir="false" />
     </list>
@@ -50,5 +48,10 @@
       <updated>1750644336413</updated>
     </task>
     <servers />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/PostgreSQL_e_Spring_Data_JPA$ScreenmatchApplication.ic" NAME="ScreenmatchApplication Coverage Results" MODIFIED="1750815091204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+      <FILTER>br.com.alura.screenmatch.*</FILTER>
+    </SUITE>
   </component>
 </project>
