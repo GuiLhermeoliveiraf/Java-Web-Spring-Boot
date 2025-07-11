@@ -6,7 +6,9 @@
   <component name="ChangeListManager">
     <list default="true" id="5366e236-4991-4e1e-a7a3-a92149603785" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atividades/Screenmatch/src/main/java/br/com/alura/screenmatch/ScreenmatchApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Atividades/Screenmatch/src/main/java/br/com/alura/screenmatch/ScreenmatchApplication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Atividades/Screenmatch/src/main/java/br/com/alura/screenmatch/model/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/Atividades/Screenmatch/src/main/java/br/com/alura/screenmatch/model/Serie.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Atividades/Screenmatch/src/main/java/br/com/alura/screenmatch/principal/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/Atividades/Screenmatch/src/main/java/br/com/alura/screenmatch/principal/Principal.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Atividades/Screenmatch/src/main/java/br/com/alura/screenmatch/service/ConsultaChatGPT.java" beforeDir="false" afterPath="$PROJECT_DIR$/Atividades/Screenmatch/src/main/java/br/com/alura/screenmatch/service/ConsultaChatGPT.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Atividades/Screenmatch/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Atividades/Screenmatch/src/main/resources/application.properties" afterDir="false" />
     </list>
@@ -14,6 +16,13 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -23,6 +32,9 @@
   &quot;associatedIndex&quot;: 2
 }</component>
   <component name="ProjectId" id="2ytCACKOrYsS9gTyF51CNZe6SwW" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />

@@ -4,6 +4,8 @@ import jakarta.persistence.*;
 import org.springframework.boot.autoconfigure.web.WebProperties;
 
 
+import java.util.ArrayList;
+import java.util.List;
 import java.util.OptionalDouble;
 
 @Entity
@@ -29,6 +31,11 @@ public class Serie {
 
     private String sinopse;
 
+    @Transient
+    private List<Episodio> episodios = new ArrayList<>();
+
+    public Serie(){}
+
     public Serie(DadosSerie dadosSerie){
         this.titulo = dadosSerie.titulo();
         this.totalTemporadas = dadosSerie.totalTemporadas();
@@ -46,6 +53,11 @@ public class Serie {
     public void setId(Long id) {
         this.id = id;
     }
+
+    public List<Episodio> getEpisodios() {
+        return episodios;
+    }
+
 
     public String getTitulo() {
         return titulo;
