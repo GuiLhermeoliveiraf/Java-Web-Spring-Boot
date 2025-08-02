@@ -59,6 +59,9 @@ public class Serie {
         return episodios;
     }
 
+    public void setEpisodios(List<Episodio> episodios) {
+        this.episodios = episodios;
+    }
 
     public String getTitulo() {
         return titulo;
