@@ -6,9 +6,7 @@
   <component name="ChangeListManager">
     <list default="true" id="5366e236-4991-4e1e-a7a3-a92149603785" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Atividades/Screenmatch/src/main/java/br/com/alura/screenmatch/model/Episodio.java" beforeDir="false" afterPath="$PROJECT_DIR$/Atividades/Screenmatch/src/main/java/br/com/alura/screenmatch/model/Episodio.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Atividades/Screenmatch/src/main/java/br/com/alura/screenmatch/model/Serie.java" beforeDir="false" afterPath="$PROJECT_DIR$/Atividades/Screenmatch/src/main/java/br/com/alura/screenmatch/model/Serie.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Atividades/Screenmatch/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/Atividades/Screenmatch/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,17 +35,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ScreenmatchApplication.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/gguim/OneDrive/Documentos/Estudos/Java Alura/Java-Web-Spring-Boot/PostgreSQL_e_Spring Data_JPA&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ScreenmatchApplication.executor": "Coverage",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/gguim/OneDrive/Documentos/Estudos/Java Alura/Java-Web-Spring-Boot/PostgreSQL_e_Spring Data_JPA"
   }
-}</component>
+}]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -60,7 +58,7 @@
     <servers />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/PostgreSQL_e_Spring_Data_JPA$ScreenmatchApplication.ic" NAME="ScreenmatchApplication Coverage Results" MODIFIED="1750815091204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
+    <SUITE FILE_PATH="coverage/PostgreSQL_e_Spring_Data_JPA$ScreenmatchApplication.ic" NAME="ScreenmatchApplication Coverage Results" MODIFIED="1754179469182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="true">
       <FILTER>br.com.alura.screenmatch.*</FILTER>
     </SUITE>
   </component>
