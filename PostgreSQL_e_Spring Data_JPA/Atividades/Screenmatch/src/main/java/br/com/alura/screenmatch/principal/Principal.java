@@ -7,7 +7,6 @@ import br.com.alura.screenmatch.model.Serie;
 import br.com.alura.screenmatch.repository.SerieRepository;
 import br.com.alura.screenmatch.service.ConsumoApi;
 import br.com.alura.screenmatch.service.ConverteDados;
-import org.springframework.beans.factory.annotation.Autowired;
 
 import java.util.*;
 import java.util.stream.Collectors;
@@ -34,7 +33,8 @@ public class Principal {
                     1 - Buscar Séries
                     2 - Buscar Episódios
                     3 - Listar Series Buscadas
-                    4 - Buscar Series por nome 
+                    4 - Buscar Series pelo Titulo
+                    5 - Buscar Series por Ator
     
                     0 - Sair
                     """;
@@ -53,9 +53,11 @@ public class Principal {
                 case 3:
                     listarSeriesBuscados();
                     break;
-
                 case 4:
                     buscarSeriePorTitulo();
+                    break;
+                case 5:
+                    buscarSeriePorAtor();
                     break;
                 case 0:
                     System.out.println("Saindo...");
@@ -65,7 +67,6 @@ public class Principal {
             }
         }
     }
-
 
     private void buscarSerieWeb() {
 
@@ -135,6 +136,19 @@ public class Principal {
         }
 
 
+    }
+
+    private void buscarSeriePorAtor() {
+        System.out.println("Qual nome Ator gostaria de buscar ?");
+        var nomeAtor = leitura.nextLine();
+
+        System.out.println("Apartir de qual avaliação gostaria de buscar?: ");
+        var avaliacao = leitura.nextDouble();
+
+        List<Serie> seriesEncontradas  = repositorio.findByAtoresContainingIgnoreCaseAndAvaliacaoGreaterThanEqual(nomeAtor, avaliacao);
+        System.out.println("Serie em que " + nomeAtor + " Tranalhou: ");
+        seriesEncontradas.forEach(s ->
+                System.out.println(s.getTitulo() + " Avaliação: " + s.getAvaliacao()));
     }
 
 
