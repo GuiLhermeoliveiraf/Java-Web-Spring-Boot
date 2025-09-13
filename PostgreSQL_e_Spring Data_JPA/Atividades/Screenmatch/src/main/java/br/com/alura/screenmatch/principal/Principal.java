@@ -27,6 +27,7 @@ public class Principal {
         var opcao = -1;
         while (opcao != 0) {
             var menu = """
+                    
                     1 - Buscar Séries
                     2 - Buscar Episódios
                     3 - Listar Series Buscadas
@@ -35,6 +36,7 @@ public class Principal {
                     6 - Buscar Top 5 Series
                     7 - Buscar Series pro Categoria
                     8 - Filtrar Series
+                    9 - Buscar um Trecho no nome da Serie
     
                     0 - Sair
                     """;
@@ -71,11 +73,15 @@ public class Principal {
                 case 8:
                     filtrarSeriesPorTemporadaEAvaliacao();
                     break;
+                case 9:
+                    buscarEpisodioPorTrecho();
+                    break;
                 default:
                     System.out.println("Opção inválida");
             }
         }
     }
+
 
     private void buscarSerieWeb() {
 
@@ -193,7 +199,15 @@ public class Principal {
                 System.out.println(s.getTitulo() + "  - avaliação: " + s.getAvaliacao()));
     }
 
+    private void buscarEpisodioPorTrecho() {
+        System.out.println("Qual nome do Episodio gostaria de buscar ?");
+        var trechoEpisodio = leitura.nextLine();
 
+        List<Episodio> episodiosEncontrados = repositorio.episodiosPorTrecho(trechoEpisodio);
+        episodiosEncontrados.forEach(e -> System.out.printf("Serie: %s Temporada %s - Episodio %s - %s \n",
+                e.getSerie().getTitulo(), e.getTemporada(),
+                e.getNumeroEpisodio(), e.getTitulo()));
+    }
 
 
 
